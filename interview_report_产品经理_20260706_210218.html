@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>AI模拟面试报告 - 产品经理 - 2026-07-06 21:02</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Microsoft YaHei","PingFang SC","Helvetica Neue",sans-serif;background:#f0f2f5;color:#333;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:24px}
+.header{background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);color:#fff;padding:40px 32px;border-radius:16px;margin-bottom:24px;text-align:center}
+.header h1{font-size:28px;margin-bottom:8px}
+.header .meta{font-size:14px;opacity:.85}
+.score-overview{display:flex;justify-content:center;margin-bottom:24px}
+.score-circle{width:140px;height:140px;border-radius:50%;background:linear-gradient(135deg,#667eea,#764ba2);display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff}
+.score-circle .number{font-size:48px;font-weight:700}
+.score-circle .label{font-size:13px;opacity:.8;margin-top:2px}
+.card{background:#fff;border-radius:12px;padding:24px;margin-bottom:20px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.card h2{font-size:18px;margin-bottom:16px;padding-bottom:8px;border-bottom:2px solid #667eea;display:flex;align-items:center}
+.card h2 .icon{margin-right:8px;font-size:20px}
+.chart-wrap{max-width:450px;margin:0 auto}
+.dim-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
+.dim-item{background:#f8f9ff;border-radius:8px;padding:14px;text-align:center}
+.dim-item .dim-name{font-size:13px;color:#666;margin-bottom:4px}
+.dim-item .dim-score{font-size:28px;font-weight:700;color:#667eea}
+.dim-item .dim-max{font-size:11px;color:#999}
+.strengths-list,.weaknesses-list{list-style:none}
+.strengths-list li,.weaknesses-list li{padding:8px 12px;margin-bottom:6px;border-radius:6px;font-size:14px}
+.strengths-list li{background:#e8f5e9;color:#2e7d32}
+.weaknesses-list li{background:#fce4ec;color:#c62828}
+.qa-section{margin-top:8px}
+.qa-block{border-left:3px solid #667eea;padding:12px 16px;margin-bottom:16px;background:#fafbff;border-radius:0 8px 8px 0}
+.qa-block .q{font-weight:600;color:#555;margin-bottom:6px;font-size:14px}
+.qa-block .a{color:#333;font-size:14px;margin-bottom:8px;white-space:pre-wrap}
+.qa-block .qa-meta{display:flex;gap:16px;font-size:12px;color:#999}
+.feedback-text{background:#fff3e0;border-left:4px solid #ff9800;padding:16px;border-radius:0 8px 8px 0;margin-top:8px;font-size:14px;line-height:1.7}
+.footer{text-align:center;color:#999;font-size:12px;margin-top:32px;padding-top:16px;border-top:1px solid #e0e0e0}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="header">
+    <h1>AI 模拟面试报告</h1>
+    <div class="meta">
+      目标岗位：产品经理 &nbsp;|&nbsp; 难度：hard &nbsp;|&nbsp;
+      轮次：3 &nbsp;|&nbsp; 日期：2026-07-06 21:02
+    </div>
+  </div>
+
+  <div class="score-overview">
+    <div class="score-circle">
+      <span class="number">45</span>
+      <span class="label">综合评分 / 100</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2><span class="icon">&#x1F4CA;</span>维度得分雷达图</h2>
+    <div class="chart-wrap">
+      <canvas id="radarChart" width="400" height="400"></canvas>
+    </div>
+    <div class="dim-list" style="margin-top:16px;">
+      <div class="dim-item"><div class="dim-name">表达清晰度</div><div class="dim-score">8</div><div class="dim-max">/ 20</div></div>
+      <div class="dim-item"><div class="dim-name">内容相关性</div><div class="dim-score">9</div><div class="dim-max">/ 20</div></div>
+      <div class="dim-item"><div class="dim-name">思考深度</div><div class="dim-score">9</div><div class="dim-max">/ 20</div></div>
+      <div class="dim-item"><div class="dim-name">结构完整性</div><div class="dim-score">9</div><div class="dim-max">/ 20</div></div>
+      <div class="dim-item"><div class="dim-name">自信与气场</div><div class="dim-score">10</div><div class="dim-max">/ 20</div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2><span class="icon">&#x2705;</span>亮点优势</h2>
+    <ul class="strengths-list">
+      <li>使用了具体数据进行支撑</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2><span class="icon">&#x26A0;&#xFE0F;</span>待改进方向</h2>
+    <ul class="weaknesses-list">
+      <li>回答偏向表层描述，建议增加深度分析和反思</li>
+      <li>建议使用STAR法则或总分总结构来组织回答</li>
+      <li>缺少具体案例或数据支撑，建议使用STAR法则展开</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2><span class="icon">&#x1F4AC;</span>逐题回放与评分</h2>
+    <div class="qa-section">
+      <div class="qa-block"><div class="q">Q1: [situational] 你发现竞品推出了一个对标功能，你作为产品经理如何应对？</div><div class="a">我主导过一个推荐系统项目。首先我们分析了用户行为数据，发现点击率只有3%。我提出了基于深度学习的协同过滤方案，并用AB测试验证，最终点击率提升到7.5%。这个项目中我负责了技术选型、团队协调和与业务方的沟通，最大的挑战是数据稀疏性问题，我通过引入预训练Embedding解决了这个问题。</div><div class="qa-meta">本题得分: 48/100 &nbsp;|&nbsp; 表达清晰度: 8/20  |  内容相关性: 12/20  |  思考深度: 9/20  |  结构完整性: 8/20  |  自信与气场: 11/20</div></div>
+      <div class="qa-block"><div class="q">Q2: [behavioral] 分享一个你通过创新方法来提升效率的案例。</div><div class="a">面对这种情况，我首先会和CEO坦诚沟通，说明三个月的工期是基于合理评估的，两周内强行交付会导致质量风险。同时我会提出折中方案：识别核心功能优先级，两周内交付最小可行版本，后续迭代完善。我会准备详细的风险评估报告和替代方案对比，用数据说话。</div><div class="qa-meta">本题得分: 41/100 &nbsp;|&nbsp; 表达清晰度: 7/20  |  内容相关性: 8/20  |  思考深度: 10/20  |  结构完整性: 8/20  |  自信与气场: 8/20</div></div>
+      <div class="qa-block"><div class="q">Q3: [technical] 请描述一个你引入并落地的最佳工程实践。</div><div class="a">我在之前公司推动了代码审查制度的落地。首先我做了一个现有代码质量的数据分析，发现线上Bug中60%可以通过Code Review避免。然后我制定了审查流程标准、检查清单，并在团队中进行试点。第一个月Bug率下降了35%。获得团队认可后正式推广到全部门。</div><div class="qa-meta">本题得分: 46/100 &nbsp;|&nbsp; 表达清晰度: 10/20  |  内容相关性: 8/20  |  思考深度: 8/20  |  结构完整性: 10/20  |  自信与气场: 10/20</div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2><span class="icon">&#x1F4DD;</span>面试官综合评价</h2>
+    <div class="feedback-text">
+      综合评价：需要提升。你的产品经理面试准备还不够充分，多项核心能力需要加强。<br><br>建议从基础开始：每天练习2-3道面试题，录制自己的回答并复盘，逐步建立自信。<br><br>重点改进方向：回答偏向表层描述，建议增加深度分析和反思、建议使用STAR法则或总分总结构来组织回答、缺少具体案例或数据支撑，建议使用STAR法则展开。
+    </div>
+  </div>
+
+  <div class="footer">
+    Generated by AI Interview Coach v1.0.0 &mdash; 2026-07-06 21:02
+  </div>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script>
+(function(){
+  var ctx=document.getElementById('radarChart').getContext('2d');
+  new Chart(ctx,{
+    type:'radar',
+    data:{
+      labels:['表达清晰度', '内容相关性', '思考深度', '结构完整性', '自信与气场'],
+      datasets:[{
+        label:'维度得分',
+        data:[8.3, 9.3, 9.0, 8.7, 9.7],
+        backgroundColor:'rgba(102,126,234,0.2)',
+        borderColor:'rgba(102,126,234,1)',
+        borderWidth:2,
+        pointBackgroundColor:'rgba(102,126,234,1)',
+        pointBorderColor:'#fff',
+        pointHoverRadius:6,
+      }]
+    },
+    options:{
+      responsive:true,
+      scales:{
+        r:{
+          beginAtZero:true,
+          max:20,
+          min:0,
+          ticks:{stepSize:4,fontSize:11},
+          pointLabels:{fontSize:13,color:'#333'}
+        }
+      },
+      plugins:{legend:{display:false}}
+    }
+  });
+})();
+</script>
+</body>
+</html>
